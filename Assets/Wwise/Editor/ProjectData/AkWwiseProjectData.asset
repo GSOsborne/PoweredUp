@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b8cad8c2e8f3146a234462abc45195, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 608f0d6dabdc81479b4b43be53fdb6dd
+    GuidInternal: 
+    m_lastTime: -8585894912894775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 64a0354e780911428ea78c071893b0bc
+    GuidInternal: 
+    m_lastTime: -8585894912914775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 1a449b5d81f2564396c5faa5ce601085
+    GuidInternal: 
+    m_lastTime: -8585893944114775808
+    List:
+    - name: HubWorld
+      guid: 943f435c41daa8499aac504f6c5f48e4
+      id: 2267626510
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HubWorld
+        ObjectType: 7
+      Path: Default Work Unit\HubWorld
+    - name: Wind
+      guid: 03f492614657744f9fdc1e708156b6a2
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 7
+      Path: Default Work Unit\Wind
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 4c2f5da7e5bb5f4f92c745987df3d2ec
+    GuidInternal: 
+    m_lastTime: -8585894912894775808
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 173606742d8b9b4a94b56bca4aa9df06
+    GuidInternal: 
+    m_lastTime: -8585894912914775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d42c57c21a5f1d41ae95830824e4ae92
+    GuidInternal: 
+    m_lastTime: -8585894912894775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0140279c6c0254488eee3ba5cfaeda3a
+    GuidInternal: 
+    m_lastTime: -8585894912914775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 5e6713219a0065428b43c6bc8a0137fd
+    GuidInternal: 
+    m_lastTime: -8585894912894775808
+    List: []
+  ExpandedItems:
+  - /GrabWorld_WwiseProject
+  - /GrabWorld_WwiseProject/SoundBanks
+  - /GrabWorld_WwiseProject/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D9B441A-F281-4356-96C5-FAA5CE601085}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{5D9B441A-F281-4356-96C5-FAA5CE601085}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="HubWorld" ID="{5C433F94-DA41-49A8-9AAC-504F6C5F48E4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WindSwitch" ID="{F4E6BF62-C0F2-4C5D-B0F8-8BC98CCAA53D}" WorkUnitID="{F31AE27C-5D04-4945-9603-D3D45809820C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Wind" ID="{6192F403-5746-4F74-9FDC-1E708156B6A2}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1537061107" Language="SFX" Hash="1310561346">
+			<ObjectPath>\SoundBanks\Default Work Unit\Wind</ObjectPath>
+			<ShortName>Wind</ShortName>
+			<Path>Wind.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2267626510" Language="SFX" Hash="1231755283">
+			<ObjectPath>\SoundBanks\Default Work Unit\HubWorld</ObjectPath>
+			<ShortName>HubWorld</ShortName>
+			<Path>HubWorld.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
