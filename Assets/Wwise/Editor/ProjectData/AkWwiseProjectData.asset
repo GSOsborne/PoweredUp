@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 608f0d6dabdc81479b4b43be53fdb6dd
     GuidInternal: 
-    m_lastTime: -8585894912894775808
+    m_lastTime: -8585893920084440308
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 64a0354e780911428ea78c071893b0bc
     GuidInternal: 
-    m_lastTime: -8585894912914775808
+    m_lastTime: -8585893920084530068
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1a449b5d81f2564396c5faa5ce601085
     GuidInternal: 
-    m_lastTime: -8585893944114775808
+    m_lastTime: -8585893920084470229
     List:
     - name: HubWorld
       guid: 943f435c41daa8499aac504f6c5f48e4
@@ -77,7 +77,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4c2f5da7e5bb5f4f92c745987df3d2ec
     GuidInternal: 
-    m_lastTime: -8585894912894775808
+    m_lastTime: -8585893920084649747
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -87,7 +87,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 173606742d8b9b4a94b56bca4aa9df06
     GuidInternal: 
-    m_lastTime: -8585894912914775808
+    m_lastTime: -8585893920084649747
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -97,7 +97,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d42c57c21a5f1d41ae95830824e4ae92
     GuidInternal: 
-    m_lastTime: -8585894912894775808
+    m_lastTime: -8585893920084460256
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0140279c6c0254488eee3ba5cfaeda3a
     GuidInternal: 
-    m_lastTime: -8585894912914775808
+    m_lastTime: -8585893920084460256
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -117,11 +117,8 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5e6713219a0065428b43c6bc8a0137fd
     GuidInternal: 
-    m_lastTime: -8585894912894775808
+    m_lastTime: -8585893920084450283
     List: []
-  ExpandedItems:
-  - /GrabWorld_WwiseProject
-  - /GrabWorld_WwiseProject/SoundBanks
-  - /GrabWorld_WwiseProject/SoundBanks/Default Work Unit
+  ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
