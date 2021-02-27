@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a2316f804f97cd449df11575e37f209
+guid: 2aa512b9a7edf33489ff375676d2e4f7
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -27,12 +27,10 @@ ScriptedImporter:
     importMeshes: 1
     importPoints: 0
   abcStartTime: 0
-  abcEndTime: 20
+  abcEndTime: 15
   startTime: 0
-  endTime: 20
+  endTime: 15
   importWarning: 
-  varyingTopologyMeshNames:
-  - Prop_2Shape
-  - Base_buildShape
+  varyingTopologyMeshNames: []
   splittingMeshNames: []
   firstImport: 0
