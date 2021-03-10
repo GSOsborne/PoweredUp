@@ -128,7 +128,14 @@
 								<Property Name="DelayTime" Type="Real32" Value="1"/>
 							</PropertyList>
 						</Effect>
-						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
+						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<PropertyList>
+								<Property Name="DelayTime" Type="Real32" Value="0.24"/>
+								<Property Name="Feedback" Type="Real32" Value="69.5"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-6.2"/>
+								<Property Name="WetDryMix" Type="Real32" Value="100"/>
+							</PropertyList>
+						</Effect>
 						<Effect Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
 						<Effect Name="One_Tap_Quarter_Second" ID="{6BD2D67D-601A-45A6-AD4C-2C089078EBED}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<PropertyList>
@@ -1585,12 +1592,14 @@
 						</Folder>
 						<Folder Name="Chorus" ID="{6FE96ECA-BF65-4A12-9C7B-B11976CA7133}" ShortID="1003146286">
 							<ChildrenList>
-								<Effect Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+								<Effect Name="WindChorus" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
 										<Property Name="DelayTime" Type="Real32" Value="10"/>
-										<Property Name="ModDepth" Type="Real32" Value="60"/>
-										<Property Name="ModFrequency" Type="Real32" Value="0.85"/>
+										<Property Name="ModDepth" Type="Real32" Value="40"/>
+										<Property Name="ModFrequency" Type="Real32" Value="3.89"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
+										<Property Name="ModPhaseSpread" Type="Real32" Value="180"/>
+										<Property Name="ModSmoothing" Type="Real32" Value="100"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
@@ -1924,12 +1933,40 @@
 						</Effect>
 						<Effect Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModFrequency" Type="Real32" Value="19.84"/>
+								<Property Name="ModFrequency" Type="Real32" Value="7.04">
+									<RTPCList>
+										<RTPC Name="" ID="{A281CFE8-7B6D-4238-86CC-4D1495C9F41F}" ShortID="502557868">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="TremeloFrequencyLFO" ID="{0AAC8E39-86AE-4A19-B159-BC5945C84251}" WorkUnitID="{485A7177-F2F1-4B6D-B3D3-2A4E0889888C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9B51B60A-D158-437B-A784-3E6F076A1B7A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="5"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>2.9112</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>148.34423</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="ModPWM" Type="Real32" Value="4"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="121"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="100"/>
-								<Property Name="ModWaveform" Type="int32" Value="3"/>
+								<Property Name="ModWaveform" Type="int32" Value="1"/>
+								<Property Name="OutputGain" Type="Real32" Value="4"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Fast_LF_Tremolo_No_Smoothing" ID="{D972718E-231C-4DBF-9288-FCAF4BF47B50}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">

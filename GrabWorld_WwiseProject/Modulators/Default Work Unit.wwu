@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{485A7177-F2F1-4B6D-B3D3-2A4E0889888C}" SchemaVersion="97">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{485A7177-F2F1-4B6D-B3D3-2A4E0889888C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{485A7177-F2F1-4B6D-B3D3-2A4E0889888C}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="TremeloFrequencyLFO" ID="{0AAC8E39-86AE-4A19-B159-BC5945C84251}" ShortID="106879617">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+						<Property Name="ModulatorScope" Type="int32" Value="3"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

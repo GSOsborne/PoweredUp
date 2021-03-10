@@ -26,12 +26,11 @@ ScriptedImporter:
     importCameras: 1
     importMeshes: 1
     importPoints: 0
-  abcStartTime: 6.833333333333333
-  abcEndTime: 10
-  startTime: 6.833333333333333
-  endTime: 10
+  abcStartTime: 0
+  abcEndTime: 0
+  startTime: -1.7976931348623157e+308
+  endTime: 1.7976931348623157e+308
   importWarning: 
-  varyingTopologyMeshNames:
-  - Cable_Green__CopyShape
+  varyingTopologyMeshNames: []
   splittingMeshNames: []
-  firstImport: 0
+  firstImport: 1

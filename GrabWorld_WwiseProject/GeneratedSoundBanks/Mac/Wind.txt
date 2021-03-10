@@ -1,0 +1,93 @@
+Event	ID	Name			Wwise Object Path	Notes
+	440804120	StopWindSong			\Default Work Unit\Wind\StopWindSong	
+	448578474	DSP_Echo			\Default Work Unit\DSPSwitches\DSP_Echo	
+	601907247	DSP_Chorus			\Default Work Unit\DSPSwitches\DSP_Chorus	
+	1117646869	DSP_Tremelo			\Default Work Unit\DSPSwitches\DSP_Tremelo	
+	1925712768	ExtraOff			\Default Work Unit\ExtraOff	
+	2154843210	ExtraOn			\Default Work Unit\ExtraOn	
+	2440479920	WindTriumph			\Default Work Unit\Wind\WindTriumph	
+	2550887757	WindBuild			\Default Work Unit\Wind\WindBuild	
+	3262533912	WindExplore			\Default Work Unit\Wind\WindExplore	
+	3323822450	StartWindSong			\Default Work Unit\Wind\StartWindSong	
+	3416339456	DSP_Distortion			\Default Work Unit\DSPSwitches\DSP_Distortion	
+	4082814112	WindLayer2			\Default Work Unit\Wind\WindLayer2	
+	4082814113	WindLayer3			\Default Work Unit\Wind\WindLayer3	
+	4082814115	WindLayer1			\Default Work Unit\Wind\WindLayer1	
+	4082814118	WindLayer4			\Default Work Unit\Wind\WindLayer4	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2348974095	WindExploreLayer			\Default Work Unit\WindExploreLayer	
+	3097867629	DSPState			\Default Work Unit\DSPState	
+	3313638542	WindState			\Default Work Unit\WindState	
+	3958274164	GestureStinger			\Default Work Unit\GestureStinger	
+
+State	ID	Name	State Group			Notes
+	748895195	None	WindExploreLayer			
+	3298531297	Layer1	WindExploreLayer			
+	3298531298	Layer2	WindExploreLayer			
+	3298531299	Layer3	WindExploreLayer			
+	3298531300	Layer4	WindExploreLayer			
+	713277698	Echo	DSPState			
+	748895195	None	DSPState			
+	1517463400	Distortion	DSPState			
+	2866621671	Chorus	DSPState			
+	4124907981	Tremelo	DSPState			
+	748895195	None	WindState			
+	1703190205	Triumphant	WindState			
+	1823678183	Exploring	WindState			
+	3339761385	Building	WindState			
+	748895195	None	GestureStinger			
+	1925712768	ExtraOff	GestureStinger			
+	2154843210	ExtraOn	GestureStinger			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	71129647	Tremelo	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth		
+	71624016	Tremelo	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindSynth		
+	86876338	Layer2	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_DrumBass_Layer3		
+	140978848	Layer1	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\IntroLoop\Wind_Intro_Synth_Layer2		
+	192358727	Echo	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth		
+	201330047	Layer1	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Synth_Layer2		
+	333381244	Layer1	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\IntroLoop\Wind_Intro_DrumBass_Layer3		
+	358814902	Layer1	WindExploreLayer	\Actor-Mixer Hierarchy\Default Work Unit\WindSynth\Wwise Synth One		
+	393319314	Chorus	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth		
+	397845185	Echo	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindSynth		
+	436857446	ExtraOff	GestureStinger	\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth		
+	525422649	Layer3	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Organ_Layer4		
+	562255237	Layer2	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\IntroLoop\Wind_Intro_Organ_Layer4		
+	762799888	Layer2	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Organ_Layer4		
+	795336578	Layer3	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\IntroLoop\Wind_Intro_Organ_Layer4		
+	806396742	Layer1	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\IntroLoop\Wind_Intro_Organ_Layer4		
+	846239457	Distortion	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindSynth		
+	855273325	Distortion	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth		
+	1026215549	Layer1	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Organ_Layer4		
+	1036464973	Layer2	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\IntroLoop\Wind_Intro_DrumBass_Layer3		
+	1049934399	Layer1	WindExploreLayer	\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_DrumBass_Layer3		
+	1049949059	Chorus	DSPState	\Actor-Mixer Hierarchy\Default Work Unit\WindSynth		
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	106879617	TremeloFrequencyLFO			\Default Work Unit\TremeloFrequencyLFO	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	119585251	Modulator Envelope (Custom)				
+	920075236	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	231594312	WindDistort	Wwise Guitar Distortion			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3748686797	WindChorus	Wwise Flanger			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	503873636	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\WindSynth\Wwise Synth One	
+	673191124	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	83930480	Extra Arp Gesture	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Extra Arp Gesture_929CE78C.wmid		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Extra Arp Gesture		9389
+	190074469	Wind_Intro_Synth_Layer2	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_Synth_Layer2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Synth_Layer2		2731420
+	312393856	Wind_Triumph_Full	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Triumph_Full_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\Wind_Triumph_Full\Wind_Triumph_Full		4865292
+	679653786	Wind_Rise_Full	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Rise_Full_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Building\Wind_Rise_Full\Wind_Rise_Full		5292064
+	708578774	Wind_Intro_Organ_Layer4	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_Organ_Layer4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Organ_Layer4		1365744
+	855773128	Wind_Intro_DrumBass_Layer3	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_DrumBass_Layer3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_DrumBass_Layer3		5462776
+	889071258	Synth Arp	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Synth Arp_7BF06840.wmid		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Synth Arp		6240
+	925173926	Wind_Build_Full	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Build_Full_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Building\Wind_Build_Full\Wind_Build_Full		5462776
+	976295006	Wind_Intro_PercWind_Layer1	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_PercWind_Layer1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_PercWind_Layer1		5462776
+

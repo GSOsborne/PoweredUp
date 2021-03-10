@@ -1,5 +1,44 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2348974095	WindExploreLayer			\Default Work Unit\WindExploreLayer	
+	3097867629	DSPState			\Default Work Unit\DSPState	
+	3313638542	WindState			\Default Work Unit\WindState	
+	3958274164	GestureStinger			\Default Work Unit\GestureStinger	
+
+State	ID	Name	State Group			Notes
+	748895195	None	WindExploreLayer			
+	3298531297	Layer1	WindExploreLayer			
+	3298531298	Layer2	WindExploreLayer			
+	3298531299	Layer3	WindExploreLayer			
+	3298531300	Layer4	WindExploreLayer			
+	713277698	Echo	DSPState			
+	748895195	None	DSPState			
+	1517463400	Distortion	DSPState			
+	2866621671	Chorus	DSPState			
+	4124907981	Tremelo	DSPState			
+	748895195	None	WindState			
+	1703190205	Triumphant	WindState			
+	1823678183	Exploring	WindState			
+	3339761385	Building	WindState			
+	748895195	None	GestureStinger			
+	1925712768	ExtraOff	GestureStinger			
+	2154843210	ExtraOn	GestureStinger			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	233604020	Echo	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSPEffectSend		
+	726690150	Chorus	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSPEffectSend		
+	891374866	Tremelo	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSPEffectSend		
+	914150789	Distortion	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSPEffectSend		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1572469619	ReverbSend			\Default Work Unit\Master Audio Bus\ReverbSend	
+	3050122115	DSPEffectSend			\Default Work Unit\Master Audio Bus\DSPEffectSend	
+
+Effect plug-ins	ID	Name	Type				Notes
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	1588715066	Echoes_Linear	Wwise Delay			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

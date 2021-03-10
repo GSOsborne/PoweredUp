@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="WindExploreLayer" ID="{0B26500A-1DCD-44B1-9E5A-329D5A1E3BFA}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{81CD3504-E07B-43C0-A9BC-585CB3A13C02}"/>
+						<State Name="Layer1" ID="{B52A780C-EDFE-4E1A-A5AC-F4D8020ABD02}"/>
+						<State Name="Layer2" ID="{07916128-2362-48D9-B936-BF949BBAEAE7}"/>
+						<State Name="Layer3" ID="{4263D12A-3AEE-4DA9-8372-F0C1E05225C5}"/>
+						<State Name="Layer4" ID="{E13A5D5C-D5B0-46F9-9E40-F8C5D7935931}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="WindState" ID="{71577B47-012B-4906-82A6-1B09D280BF68}">
+					<ChildrenList>
+						<State Name="None" ID="{E57AB8B3-8B41-48E0-A66D-F4D265555363}"/>
+						<State Name="Exploring" ID="{34F76CE4-1BDA-41FB-89F8-7B135C549E51}"/>
+						<State Name="Building" ID="{27612F16-EFB9-4D45-8287-1201A4825B6A}"/>
+						<State Name="Triumphant" ID="{654F883A-1379-4D6E-BBFF-806B01A64C99}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GestureStinger" ID="{B8344093-29BE-4A55-9C31-CF3386F22673}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{B0835B2C-2499-424C-B0A4-432639B723F8}"/>
+						<State Name="ExtraOn" ID="{3090FA34-9EC1-4531-8C08-C590ED1A76A5}"/>
+						<State Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="ExtraOn" ID="{3090FA34-9EC1-4531-8C08-C590ED1A76A5}"/>
+							<EndState Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="DSPState" ID="{E7AC505F-D437-4D7D-AEF9-2CBC5E24F271}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{102B69B5-1D1D-49C5-B4EF-CFDC8A2EFAB9}"/>
+						<State Name="Chorus" ID="{64F5C0AE-13A5-4E5E-8BB1-0D11CB529B11}"/>
+						<State Name="Echo" ID="{64289477-4783-4611-B426-A3F763679F9C}"/>
+						<State Name="Distortion" ID="{250E8931-D050-4E19-A921-7E39F13E6266}"/>
+						<State Name="Tremelo" ID="{0CE9FE4E-73CD-4DBD-8422-49769B28EF98}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

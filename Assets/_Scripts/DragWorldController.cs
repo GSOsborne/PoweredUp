@@ -47,6 +47,7 @@ public class DragWorldController : MonoBehaviour
             isDragging = false;
         }
 
+
         //Vector3 positionVector = xrController.positionAction.action.ReadValue<Vector3>();
         //Debug.Log(positionVector);
         
