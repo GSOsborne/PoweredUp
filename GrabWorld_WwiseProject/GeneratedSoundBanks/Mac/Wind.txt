@@ -81,13 +81,13 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	673191124	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\WindExtraSynth\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	83930480	Extra Arp Gesture	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Extra Arp Gesture_929CE78C.wmid		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Extra Arp Gesture		9389
+	83930480	Extra Arp Gesture	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Extra Arp Gesture_929CE78C.wmid		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Building\Wind_Build_Full\Extra Arp Gesture		9389
 	190074469	Wind_Intro_Synth_Layer2	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_Synth_Layer2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Synth_Layer2		2731420
 	312393856	Wind_Triumph_Full	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Triumph_Full_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Triumphant\Wind_Triumph_Full\Wind_Triumph_Full		4865292
 	679653786	Wind_Rise_Full	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Rise_Full_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Building\Wind_Rise_Full\Wind_Rise_Full		5292064
 	708578774	Wind_Intro_Organ_Layer4	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_Organ_Layer4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_Organ_Layer4		1365744
 	855773128	Wind_Intro_DrumBass_Layer3	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_DrumBass_Layer3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_DrumBass_Layer3		5462776
-	889071258	Synth Arp	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Synth Arp_7BF06840.wmid		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Synth Arp		6240
+	889071258	Synth Arp	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Synth Arp_7BF06840.wmid		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Building\Wind_Build_Full\Synth Arp		6240
 	925173926	Wind_Build_Full	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Build_Full_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Building\Wind_Build_Full\Wind_Build_Full		5462776
 	976295006	Wind_Intro_PercWind_Layer1	D:\GameAudProjects\GrabWorld\GrabWorld_WwiseProject\.cache\Mac\SFX\Wind_Intro_PercWind_Layer1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WindSwitch\Exploring\IntroLoop\Wind_Intro_PercWind_Layer1		5462776
 

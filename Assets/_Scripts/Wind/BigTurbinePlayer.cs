@@ -19,6 +19,8 @@ public class BigTurbinePlayer : MonoBehaviour
 
     public bool buildSpeedBoosted;
 
+    public ElevatorPlayback elevPlayback;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -86,6 +88,7 @@ public class BigTurbinePlayer : MonoBehaviour
                 {
                     triumphEvent.Post(this.gameObject);
                     triumphPosted = true;
+                    elevPlayback.LowerElevator(); // will need to move this later to when you come back down to the ground.
                 }
             }
             //Debug.Log("Turbine loop should be at the time of: " + assemblyTimer);
@@ -106,6 +109,6 @@ public class BigTurbinePlayer : MonoBehaviour
         buildSpeedBoosted = true;
         yield return new WaitForSeconds(3f);
         buildSpeedBoosted = false;
-
+        
     }
 }

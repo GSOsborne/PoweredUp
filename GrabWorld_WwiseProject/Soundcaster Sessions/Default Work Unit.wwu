@@ -52,10 +52,10 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Layer1" ID="{B52A780C-EDFE-4E1A-A5AC-F4D8020ABD02}"/>
-						<CurrentStateRef Name="Exploring" ID="{34F76CE4-1BDA-41FB-89F8-7B135C549E51}"/>
-						<CurrentStateRef Name="ExtraOn" ID="{3090FA34-9EC1-4531-8C08-C590ED1A76A5}"/>
-						<CurrentStateRef Name="Tremelo" ID="{0CE9FE4E-73CD-4DBD-8422-49769B28EF98}"/>
+						<CurrentStateRef Name="Layer4" ID="{E13A5D5C-D5B0-46F9-9E40-F8C5D7935931}"/>
+						<CurrentStateRef Name="Building" ID="{27612F16-EFB9-4D45-8287-1201A4825B6A}"/>
+						<CurrentStateRef Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}"/>
+						<CurrentStateRef Name="Distortion" ID="{250E8931-D050-4E19-A921-7E39F13E6266}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

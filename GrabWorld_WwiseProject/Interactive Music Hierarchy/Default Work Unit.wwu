@@ -473,7 +473,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Wind_Build_Full" ID="{87EBFACB-7FF6-441B-B4EA-24CDCE5422FC}" ShortID="67609796">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="30967.7551020408"/>
+										<Property Name="EndPosition" Type="Real64" Value="31765.7811477063"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -522,6 +522,106 @@
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
+										<MusicTrack Name="Synth Arp" ID="{B273E72B-3016-4FEC-9BD4-08C46056C3AC}" ShortID="425974170">
+											<PropertyList>
+												<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6A124C3-C087-444E-8ADF-5A5D7FF62F1A}"/>
+												</Reference>
+												<Reference Name="MidiTarget">
+													<ObjectRef Name="WindSynth" ID="{ECD0FC16-517F-445B-8548-9B48F0751614}" WorkUnitID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Synth Arp" ID="{73796AD0-5F4F-4A09-ACAD-D73F9918853B}" ShortID="514284321">
+													<Language>SFX</Language>
+													<MidiFile>Synth Arp.mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="889071258"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EDED08C9-4EA9-4C3C-A39D-40F17190AB5A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3060ABA7-F4D3-41C9-B9F4-DDE42255F8CD}">
+													<ClipList>
+														<MusicClipMidi Name="Synth Arp" ID="{0B876B33-C2E9-40F5-BA1A-D54FD2DC66B3}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="56129.0322580646"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="87096.7741935484"/>
+																<Property Name="PlayAt" Type="Real64" Value="-56129.0322580646"/>
+															</PropertyList>
+															<MidiSourceRef Name="Synth Arp" ID="{BCA1E0CD-4596-420A-942C-05BD41640D3C}"/>
+														</MusicClipMidi>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Extra Arp Gesture" ID="{792678C5-773B-40EF-B2E8-8E0AC39DA13E}" ShortID="790630287">
+											<PropertyList>
+												<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6A124C3-C087-444E-8ADF-5A5D7FF62F1A}"/>
+												</Reference>
+												<Reference Name="MidiTarget">
+													<ObjectRef Name="WindExtraSynth" ID="{6C3FA01C-6CDE-48FC-AD06-2AF14048D34A}" WorkUnitID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Extra Arp Gesture" ID="{68F962DE-011C-441A-B787-5817A6745A2D}" ShortID="32481533">
+													<Language>SFX</Language>
+													<MidiFile>Extra Arp Gesture.mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="83930480"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StatePropertyList>
+													<Property Name="MakeUpGain"/>
+													<Property Name="Volume"/>
+												</StatePropertyList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D3003E63-1D30-4C58-955B-56683BB0E292}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{69197214-9085-472C-B384-D84F14D31544}">
+													<ClipList>
+														<MusicClipMidi Name="Extra Arp Gesture" ID="{E1CE8B9F-4637-46DB-9A50-997B12039DAD}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="56129.0322580646"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="87096.7741935485"/>
+																<Property Name="PlayAt" Type="Real64" Value="-56129.0322580646"/>
+															</PropertyList>
+															<MidiSourceRef Name="Extra Arp Gesture" ID="{27775777-D2BD-44EB-B82D-23FB55958C91}"/>
+														</MusicClipMidi>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
 									</ChildrenList>
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{32F726C8-760F-4DDE-A37B-99E7A75F2F2B}"/>
@@ -535,7 +635,7 @@
 								</MusicSegment>
 								<MusicSegment Name="Wind_Rise_Full" ID="{2448A4CF-CA2C-4E2E-8880-9C9321179914}" ShortID="1007752116">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="30000"/>
+										<Property Name="EndPosition" Type="Real64" Value="41448.534068976"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -579,7 +679,166 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Wind_Rise_Full" ID="{CDF10BAF-33A7-4540-B938-2F44954B4443}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{9E92C7C8-8CFA-479C-A087-E0FC1FD6D051}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{136D10EE-D027-4186-A1C1-04D87E50BA94}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{DD17B95C-6A46-4D69-916E-6F02E2C68900}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Synth Arp" ID="{CD885F25-B965-4544-814C-5F2C15C95A93}" ShortID="606617493">
+											<PropertyList>
+												<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6A124C3-C087-444E-8ADF-5A5D7FF62F1A}"/>
+												</Reference>
+												<Reference Name="MidiTarget">
+													<ObjectRef Name="WindSynth" ID="{ECD0FC16-517F-445B-8548-9B48F0751614}" WorkUnitID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Synth Arp" ID="{0634F376-5C6C-4EF5-A324-8B1B3FF52073}" ShortID="846461608">
+													<Language>SFX</Language>
+													<MidiFile>Synth Arp.mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="889071258"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A713D5BA-A67E-4434-B39E-82D48639B638}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{CDE50E3B-5938-4006-87EA-1534BF95892C}">
+													<ClipList>
+														<MusicClipMidi Name="Synth Arp" ID="{6310B876-2D0E-4311-B593-49010BA46AC1}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="30967.7419354839"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56129.0322580645"/>
+																<Property Name="PlayAt" Type="Real64" Value="-30967.7419354839"/>
+															</PropertyList>
+															<MidiSourceRef Name="Synth Arp" ID="{BCA1E0CD-4596-420A-942C-05BD41640D3C}"/>
+														</MusicClipMidi>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Extra Arp Gesture" ID="{5CE6EEF1-F7BF-4283-91D7-038149E9EB9F}" ShortID="188220440">
+											<PropertyList>
+												<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6A124C3-C087-444E-8ADF-5A5D7FF62F1A}"/>
+												</Reference>
+												<Reference Name="MidiTarget">
+													<ObjectRef Name="WindExtraSynth" ID="{6C3FA01C-6CDE-48FC-AD06-2AF14048D34A}" WorkUnitID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Extra Arp Gesture" ID="{A6AB7550-9163-4C23-A7AE-05F4C6EAB57B}" ShortID="626637443">
+													<Language>SFX</Language>
+													<MidiFile>Extra Arp Gesture.mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="83930480"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StatePropertyList>
+													<Property Name="MakeUpGain"/>
+													<Property Name="Volume"/>
+												</StatePropertyList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FA8C14B1-F63B-4C48-B98A-82D49FA1BC08}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BFA12294-CE1B-4367-8805-62F2C9BC0FCF}">
+													<ClipList>
+														<MusicClipMidi Name="Extra Arp Gesture" ID="{557D63FB-E8E9-468A-8927-7AC93D392B44}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="30967.7419354839"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56129.0322580645"/>
+																<Property Name="PlayAt" Type="Real64" Value="-30967.7419354839"/>
+															</PropertyList>
+															<MidiSourceRef Name="Extra Arp Gesture" ID="{27775777-D2BD-44EB-B82D-23FB55958C91}"/>
+														</MusicClipMidi>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
@@ -644,7 +903,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Wind_Triumph_Full" ID="{8B3EC6B7-08DB-4C79-8977-42E5DA364239}" ShortID="280680745">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="29032.2580645161"/>
+										<Property Name="EndPosition" Type="Real64" Value="30967.7419354839"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

@@ -8,6 +8,7 @@ public class WindPlatformTrigger : MonoBehaviour
     public GameObject xrRig;
     Animator animator;
     public BigTurbinePlayer turbPlayer;
+    public ElevatorPlayback elevPlayback;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class WindPlatformTrigger : MonoBehaviour
             xrRig.transform.SetParent(transform);
             animator.speed = 1;
             turbPlayer.FadeIn();
+            elevPlayback.RaiseElevator();
         }
     }
 }

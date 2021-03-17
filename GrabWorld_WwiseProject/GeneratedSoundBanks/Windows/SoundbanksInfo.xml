@@ -31,7 +31,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1537061107" Language="SFX" Hash="783685324">
+		<SoundBank Id="1537061107" Language="SFX" Hash="618008397">
 			<ObjectPath>\SoundBanks\Default Work Unit\Wind</ObjectPath>
 			<ShortName>Wind</ShortName>
 			<Path>Wind.bnk</Path>
@@ -108,7 +108,9 @@
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{27612F16-EFB9-4D45-8287-1201A4825B6A}">
 							<Media>
+								<File Id="83930480"/>
 								<File Id="679653786"/>
+								<File Id="889071258"/>
 								<File Id="925173926"/>
 							</Media>
 						</SwitchContainer>
