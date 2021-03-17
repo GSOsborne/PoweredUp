@@ -17,7 +17,7 @@ public class DSPController : MonoBehaviour
     {
         
         layerMask = LayerMask.GetMask("DSPTrigger");
-        Debug.Log("Layer mask is: " + layerMask.value);
+        //Debug.Log("Layer mask is: " + layerMask.value);
         resetting = false;
     }
 
@@ -30,11 +30,11 @@ public class DSPController : MonoBehaviour
             if ((lastFramePos - transform.position).magnitude * 1000 > triggerSpeed)
             {
                 //Ray ray = new Ray(transform.localPosition, transform.localPosition - lastFramePos);
-                Debug.DrawRay(transform.position, (transform.position - lastFramePos)*20, Color.green, 2f);
-                Debug.Log("Speed check passed, checking for DSP Wall.");
+                //Debug.DrawRay(transform.position, (transform.position - lastFramePos)*20, Color.green, 2f);
+                //Debug.Log("Speed check passed, checking for DSP Wall.");
                 if (Physics.Raycast(transform.position, transform.position-lastFramePos, out hit, 20f, layerMask))
                 {
-                    Debug.Log("Hit the wall: " + hit.transform.gameObject);
+                    //Debug.Log("Hit the wall: " + hit.transform.gameObject);
                     DSPTriggerWall hitWall = hit.transform.gameObject.GetComponent<DSPTriggerWall>();
                     DSPGestureManager.Instance.TriggerDSPSwitch(hitWall.dspState);
                 }

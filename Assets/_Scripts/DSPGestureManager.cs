@@ -43,7 +43,7 @@ public class DSPGestureManager : MonoBehaviour
 
     public void TriggerDSPSwitch(DSPState givenDSP)
     {
-        Debug.Log("Got a DSP trigger for: " + givenDSP);
+        //Debug.Log("Got a DSP trigger for: " + givenDSP);
         dspTriggered.Invoke(givenDSP);
         switch (givenDSP)
         {

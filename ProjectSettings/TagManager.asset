@@ -6,6 +6,7 @@ TagManager:
   tags:
   - WheatVision
   - DSPTrigger
+  - GestureRadius
   layers:
   - Default
   - TransparentFX

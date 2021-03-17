@@ -24,7 +24,7 @@ public class PlatformProximityTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             enterEvent.Post(this.gameObject);
-            Debug.Log("Setting layer " + enterEvent);
+            //Debug.Log("Setting layer " + enterEvent);
         }
     }
 
@@ -33,7 +33,7 @@ public class PlatformProximityTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             exitEvent.Post(this.gameObject);
-            Debug.Log("Setting layer " + exitEvent);
+            //Debug.Log("Setting layer " + exitEvent);
         }
     }
 }
