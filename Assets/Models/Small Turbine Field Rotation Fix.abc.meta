@@ -27,10 +27,16 @@ ScriptedImporter:
     importMeshes: 1
     importPoints: 0
   abcStartTime: 0
+<<<<<<< HEAD:Assets/Models/Small Turbine Field Rotation Fix.abc.meta
   abcEndTime: 13.333333333333334
   startTime: 0
   endTime: 13.333333015441895
+=======
+  abcEndTime: 0
+  startTime: -1.7976931348623157e+308
+  endTime: 1.7976931348623157e+308
+>>>>>>> c886652a16a23a2bb4358c8bcbd4a0ef0bce4cf9:Assets/Models/Green Finish.abc.meta
   importWarning: 
   varyingTopologyMeshNames: []
   splittingMeshNames: []
-  firstImport: 0
+  firstImport: 1

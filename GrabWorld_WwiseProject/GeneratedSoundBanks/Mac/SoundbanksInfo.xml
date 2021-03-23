@@ -11,17 +11,239 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3140602241">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1572469619" Name="ReverbSend" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbSend"/>
+				<AuxBus Id="3050122115" Name="DSPEffectSend" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSPEffectSend"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="3097867629" Name="DSPState" ObjectPath="\States\Default Work Unit\DSPState">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\DSPState\None"/>
+						<State Id="2866621671" Name="Chorus" ObjectPath="\States\Default Work Unit\DSPState\Chorus"/>
+						<State Id="713277698" Name="Echo" ObjectPath="\States\Default Work Unit\DSPState\Echo"/>
+						<State Id="1517463400" Name="Distortion" ObjectPath="\States\Default Work Unit\DSPState\Distortion"/>
+						<State Id="4124907981" Name="Tremelo" ObjectPath="\States\Default Work Unit\DSPState\Tremelo"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1537061107" Language="SFX" Hash="1310561346">
+		<SoundBank Id="1537061107" Language="SFX" Hash="618008397">
 			<ObjectPath>\SoundBanks\Default Work Unit\Wind</ObjectPath>
 			<ShortName>Wind</ShortName>
 			<Path>Wind.bnk</Path>
+			<IncludedEvents>
+				<Event Id="601907247" Name="DSP_Chorus" ObjectPath="\Events\Default Work Unit\DSPSwitches\DSP_Chorus" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2866621671" Name="Chorus" ObjectPath="\States\Default Work Unit\DSPState\Chorus"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3416339456" Name="DSP_Distortion" ObjectPath="\Events\Default Work Unit\DSPSwitches\DSP_Distortion" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1517463400" Name="Distortion" ObjectPath="\States\Default Work Unit\DSPState\Distortion"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="448578474" Name="DSP_Echo" ObjectPath="\Events\Default Work Unit\DSPSwitches\DSP_Echo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="713277698" Name="Echo" ObjectPath="\States\Default Work Unit\DSPState\Echo"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1117646869" Name="DSP_Tremelo" ObjectPath="\Events\Default Work Unit\DSPSwitches\DSP_Tremelo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="4124907981" Name="Tremelo" ObjectPath="\States\Default Work Unit\DSPState\Tremelo"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1925712768" Name="ExtraOff" ObjectPath="\Events\Default Work Unit\ExtraOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1925712768" Name="ExtraOff" ObjectPath="\States\Default Work Unit\GestureStinger\ExtraOff"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2154843210" Name="ExtraOn" ObjectPath="\Events\Default Work Unit\ExtraOn" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2154843210" Name="ExtraOn" ObjectPath="\States\Default Work Unit\GestureStinger\ExtraOn"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3323822450" Name="StartWindSong" ObjectPath="\Events\Default Work Unit\Wind\StartWindSong" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="83930480" Language="SFX">
+							<ShortName>Extra Arp Gesture.mid</ShortName>
+							<Path>SFX\Extra Arp Gesture_929CE78C.wmid</Path>
+						</File>
+						<File Id="190074469" Language="SFX">
+							<ShortName>Wind_Intro_Synth_Layer2.wav</ShortName>
+							<Path>SFX\Wind_Intro_Synth_Layer2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="312393856" Language="SFX">
+							<ShortName>Wind_Triumph_Full.wav</ShortName>
+							<Path>SFX\Wind_Triumph_Full_D79FB2B7.wem</Path>
+						</File>
+						<File Id="679653786" Language="SFX">
+							<ShortName>Wind_Rise_Full.wav</ShortName>
+							<Path>SFX\Wind_Rise_Full_D79FB2B7.wem</Path>
+						</File>
+						<File Id="708578774" Language="SFX">
+							<ShortName>Wind_Intro_Organ_Layer4.wav</ShortName>
+							<Path>SFX\Wind_Intro_Organ_Layer4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="855773128" Language="SFX">
+							<ShortName>Wind_Intro_DrumBass_Layer3.wav</ShortName>
+							<Path>SFX\Wind_Intro_DrumBass_Layer3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="889071258" Language="SFX">
+							<ShortName>Synth Arp.mid</ShortName>
+							<Path>SFX\Synth Arp_7BF06840.wmid</Path>
+						</File>
+						<File Id="925173926" Language="SFX">
+							<ShortName>Wind_Build_Full.wav</ShortName>
+							<Path>SFX\Wind_Build_Full_D79FB2B7.wem</Path>
+						</File>
+						<File Id="976295006" Language="SFX">
+							<ShortName>Wind_Intro_PercWind_Layer1.wav</ShortName>
+							<Path>SFX\Wind_Intro_PercWind_Layer1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{27612F16-EFB9-4D45-8287-1201A4825B6A}">
+							<Media>
+								<File Id="83930480"/>
+								<File Id="679653786"/>
+								<File Id="889071258"/>
+								<File Id="925173926"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{34F76CE4-1BDA-41FB-89F8-7B135C549E51}">
+							<Media>
+								<File Id="83930480"/>
+								<File Id="190074469"/>
+								<File Id="708578774"/>
+								<File Id="855773128"/>
+								<File Id="889071258"/>
+								<File Id="976295006"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{654F883A-1379-4D6E-BBFF-806B01A64C99}">
+							<Media>
+								<File Id="190074469"/>
+								<File Id="312393856"/>
+								<File Id="708578774"/>
+								<File Id="855773128"/>
+								<File Id="976295006"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E57AB8B3-8B41-48E0-A66D-F4D265555363}">
+							<Media>
+								<File Id="83930480"/>
+								<File Id="190074469"/>
+								<File Id="708578774"/>
+								<File Id="855773128"/>
+								<File Id="889071258"/>
+								<File Id="976295006"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="4082814115" Name="WindLayer1" ObjectPath="\Events\Default Work Unit\Wind\WindLayer1"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1823678183" Name="Exploring" ObjectPath="\States\Default Work Unit\WindState\Exploring"/>
+						<ActionSetStateEntry Id="1925712768" Name="ExtraOff" ObjectPath="\States\Default Work Unit\GestureStinger\ExtraOff"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="1572469619" Name="ReverbSend" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbSend"/>
+						<AuxBus Id="3050122115" Name="DSPEffectSend" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSPEffectSend"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="440804120" Name="StopWindSong" ObjectPath="\Events\Default Work Unit\Wind\StopWindSong" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2550887757" Name="WindBuild" ObjectPath="\Events\Default Work Unit\Wind\WindBuild" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3339761385" Name="Building" ObjectPath="\States\Default Work Unit\WindState\Building"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3262533912" Name="WindExplore" ObjectPath="\Events\Default Work Unit\Wind\WindExplore" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1823678183" Name="Exploring" ObjectPath="\States\Default Work Unit\WindState\Exploring"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4082814115" Name="WindLayer1" ObjectPath="\Events\Default Work Unit\Wind\WindLayer1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531297" Name="Layer1" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4082814112" Name="WindLayer2" ObjectPath="\Events\Default Work Unit\Wind\WindLayer2" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531298" Name="Layer2" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer2"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4082814113" Name="WindLayer3" ObjectPath="\Events\Default Work Unit\Wind\WindLayer3" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531299" Name="Layer3" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer3"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4082814118" Name="WindLayer4" ObjectPath="\Events\Default Work Unit\Wind\WindLayer4" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531300" Name="Layer4" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer4"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2440479920" Name="WindTriumph" ObjectPath="\Events\Default Work Unit\Wind\WindTriumph" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1703190205" Name="Triumphant" ObjectPath="\States\Default Work Unit\WindState\Triumphant"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="713277698" Name="Echo" ObjectPath="\States\Default Work Unit\DSPState\Echo">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1517463400" Name="Distortion" ObjectPath="\States\Default Work Unit\DSPState\Distortion">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1703190205" Name="Triumphant" ObjectPath="\States\Default Work Unit\WindState\Triumphant">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1823678183" Name="Exploring" ObjectPath="\States\Default Work Unit\WindState\Exploring">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1925712768" Name="ExtraOff" ObjectPath="\States\Default Work Unit\GestureStinger\ExtraOff">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2154843210" Name="ExtraOn" ObjectPath="\States\Default Work Unit\GestureStinger\ExtraOn">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2866621671" Name="Chorus" ObjectPath="\States\Default Work Unit\DSPState\Chorus">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531297" Name="Layer1" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer1">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531298" Name="Layer2" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer2">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531299" Name="Layer3" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer3">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531300" Name="Layer4" ObjectPath="\States\Default Work Unit\WindExploreLayer\Layer4">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3313638542" Name="WindState" ObjectPath="\States\Default Work Unit\WindState">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\WindState\None"/>
+						<State Id="1823678183" Name="Exploring" ObjectPath="\States\Default Work Unit\WindState\Exploring"/>
+						<State Id="3339761385" Name="Building" ObjectPath="\States\Default Work Unit\WindState\Building"/>
+						<State Id="1703190205" Name="Triumphant" ObjectPath="\States\Default Work Unit\WindState\Triumphant"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3339761385" Name="Building" ObjectPath="\States\Default Work Unit\WindState\Building">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4124907981" Name="Tremelo" ObjectPath="\States\Default Work Unit\DSPState\Tremelo">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2267626510" Language="SFX" Hash="1231755283">
+		<SoundBank Id="2267626510" Language="SFX" Hash="3236145185">
 			<ObjectPath>\SoundBanks\Default Work Unit\HubWorld</ObjectPath>
 			<ShortName>HubWorld</ShortName>
 			<Path>HubWorld.bnk</Path>

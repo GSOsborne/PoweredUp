@@ -27,10 +27,10 @@ ScriptedImporter:
     importMeshes: 1
     importPoints: 0
   abcStartTime: 0
-  abcEndTime: 13.333333333333334
-  startTime: 0
-  endTime: 13.333333333333334
+  abcEndTime: 0
+  startTime: -1.7976931348623157e+308
+  endTime: 1.7976931348623157e+308
   importWarning: 
   varyingTopologyMeshNames: []
   splittingMeshNames: []
-  firstImport: 0
+  firstImport: 1

@@ -1,6 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Wind" ID="{153937C9-B615-4AEA-8AEB-2ADEE4C3D2C4}" ShortID="701725012">
+					<ChildrenList>
+						<Event Name="StartWindSong" ID="{4126C5F9-16B9-45B0-A68B-8A0859111EA9}">
+							<ChildrenList>
+								<Action Name="" ID="{A8777693-0E2E-4B04-A7ED-C15F4619E6A5}" ShortID="760448170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindSwitch" ID="{F4E6BF62-C0F2-4C5D-B0F8-8BC98CCAA53D}" WorkUnitID="{F31AE27C-5D04-4945-9603-D3D45809820C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A0AFE2A5-B13F-434F-B9C0-57FDCA55DBB7}" ShortID="432110179">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exploring" ID="{34F76CE4-1BDA-41FB-89F8-7B135C549E51}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ED391D5F-0FB7-4C55-9379-6BF002C5EE55}" ShortID="484495191">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindLayer1" ID="{E0213ADA-A168-46EC-A5AC-0142B4A5BACF}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BEBF94ED-8458-4515-87D5-6A8A152EA719}" ShortID="161524929">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindLayer1" ID="{E0213ADA-A168-46EC-A5AC-0142B4A5BACF}">
+							<ChildrenList>
+								<Action Name="" ID="{4227E4D5-C648-4477-80C0-8A990609AE7C}" ShortID="38772229">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Layer1" ID="{B52A780C-EDFE-4E1A-A5AC-F4D8020ABD02}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindLayer2" ID="{E199A7FA-28F4-477E-9CFA-C5473EBC5434}">
+							<ChildrenList>
+								<Action Name="" ID="{86286CB0-1125-493E-9D0C-AAD8DA97AA3E}" ShortID="657267733">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Layer2" ID="{07916128-2362-48D9-B936-BF949BBAEAE7}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindLayer3" ID="{EE077B8A-31B7-445C-AABC-F69EF800BEFD}">
+							<ChildrenList>
+								<Action Name="" ID="{0B52973A-7843-421E-A0C6-CFE4F5D3E1BA}" ShortID="20716291">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Layer3" ID="{4263D12A-3AEE-4DA9-8372-F0C1E05225C5}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindLayer4" ID="{6899C329-7EA4-4DC5-B41C-964509DEB038}">
+							<ChildrenList>
+								<Action Name="" ID="{1F6B85FE-BDF9-4A63-BA91-3743C705B95E}" ShortID="766728626">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Layer4" ID="{E13A5D5C-D5B0-46F9-9E40-F8C5D7935931}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindExplore" ID="{DF2B6CED-8C34-4E2E-B3C1-AF8B5EB8751D}">
+							<ChildrenList>
+								<Action Name="" ID="{0151CAB5-3DE0-470D-881A-05A179995E75}" ShortID="465078064">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exploring" ID="{34F76CE4-1BDA-41FB-89F8-7B135C549E51}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopWindSong" ID="{AE3AF0A7-C7F4-4250-8C6C-506070CBDB73}">
+							<ChildrenList>
+								<Action Name="" ID="{748B92F0-B8CC-481D-B4BC-C2CF6CBDCDFE}" ShortID="973014186">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindSwitch" ID="{F4E6BF62-C0F2-4C5D-B0F8-8BC98CCAA53D}" WorkUnitID="{F31AE27C-5D04-4945-9603-D3D45809820C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindBuild" ID="{01DC38EA-668E-4982-BBE6-9C10A207C347}">
+							<ChildrenList>
+								<Action Name="" ID="{309C0194-963E-46BF-8B3C-0F690F77CC95}" ShortID="306305439">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Building" ID="{27612F16-EFB9-4D45-8287-1201A4825B6A}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WindTriumph" ID="{72C6A1B8-76B1-48C8-9B7F-F9EDD83083D0}">
+							<ChildrenList>
+								<Action Name="" ID="{38A28BD0-1262-4C29-92E7-E2A7B2384CA2}" ShortID="785625819">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Triumphant" ID="{654F883A-1379-4D6E-BBFF-806B01A64C99}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="ExtraOn" ID="{F09F0472-E084-456D-BB08-267656DF4EB9}">
+					<ChildrenList>
+						<Action Name="" ID="{29334CCA-FEE2-4B85-BF41-02BD28DD0F27}" ShortID="1024145557">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ExtraOn" ID="{3090FA34-9EC1-4531-8C08-C590ED1A76A5}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ExtraOff" ID="{DC303585-8AE9-4106-84A8-9FF8C5E27721}">
+					<ChildrenList>
+						<Action Name="" ID="{13787D59-D7DA-41B9-B2C5-30675276B54A}" ShortID="136458513">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="DSPSwitches" ID="{D9107775-D920-4BE3-878F-EE12FB403C76}" ShortID="15170178">
+					<ChildrenList>
+						<Event Name="DSP_Chorus" ID="{3FA46318-54C4-4522-AD35-F48CA4821082}">
+							<ChildrenList>
+								<Action Name="" ID="{0A8DA48C-811A-4FCA-9FC5-46DE458D0897}" ShortID="78051071">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chorus" ID="{64F5C0AE-13A5-4E5E-8BB1-0D11CB529B11}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DSP_Distortion" ID="{A0D315E0-A388-42F7-BC94-E9896CB75170}">
+							<ChildrenList>
+								<Action Name="" ID="{44D8601D-5784-43CF-9AE6-7B28079B6F0C}" ShortID="827964286">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distortion" ID="{250E8931-D050-4E19-A921-7E39F13E6266}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DSP_Echo" ID="{A1353EA8-5A18-4F3E-AB2F-881D98DF56D1}">
+							<ChildrenList>
+								<Action Name="" ID="{D1EDF2CA-D692-4CEF-9DC1-6F0E1EDDA87F}" ShortID="751683971">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Echo" ID="{64289477-4783-4611-B426-A3F763679F9C}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DSP_Tremelo" ID="{317B09C2-B7BE-4593-B146-8562097AECF2}">
+							<ChildrenList>
+								<Action Name="" ID="{8664A0A8-6DD2-42AF-9706-06B52FBDDAE5}" ShortID="398795550">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tremelo" ID="{0CE9FE4E-73CD-4DBD-8422-49769B28EF98}" WorkUnitID="{C2572CD4-5F1A-411D-AE95-830824E4AE92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

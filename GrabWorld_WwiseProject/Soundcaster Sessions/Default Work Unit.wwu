@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AC7B351B-53E5-4A3F-9676-A83396BAEEE4}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{AC7B351B-53E5-4A3F-9676-A83396BAEEE4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AC7B351B-53E5-4A3F-9676-A83396BAEEE4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="WindSession" ID="{0DFE2B17-21D8-41E9-B50A-6D9FCF3CC3F6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="StartWindSong" ID="{4126C5F9-16B9-45B0-A68B-8A0859111EA9}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindLayer1" ID="{E0213ADA-A168-46EC-A5AC-0142B4A5BACF}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ExtraOff" ID="{DC303585-8AE9-4106-84A8-9FF8C5E27721}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopWindSong" ID="{AE3AF0A7-C7F4-4250-8C6C-506070CBDB73}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindLayer2" ID="{E199A7FA-28F4-477E-9CFA-C5473EBC5434}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ExtraOn" ID="{F09F0472-E084-456D-BB08-267656DF4EB9}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindExplore" ID="{DF2B6CED-8C34-4E2E-B3C1-AF8B5EB8751D}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindLayer3" ID="{EE077B8A-31B7-445C-AABC-F69EF800BEFD}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindBuild" ID="{01DC38EA-668E-4982-BBE6-9C10A207C347}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindLayer4" ID="{6899C329-7EA4-4DC5-B41C-964509DEB038}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WindTriumph" ID="{72C6A1B8-76B1-48C8-9B7F-F9EDD83083D0}" WorkUnitID="{A75D2F4C-BBE5-4F5F-92C7-45987DF3D2EC}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Layer4" ID="{E13A5D5C-D5B0-46F9-9E40-F8C5D7935931}"/>
+						<CurrentStateRef Name="Building" ID="{27612F16-EFB9-4D45-8287-1201A4825B6A}"/>
+						<CurrentStateRef Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}"/>
+						<CurrentStateRef Name="Distortion" ID="{250E8931-D050-4E19-A921-7E39F13E6266}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -30,8 +30,19 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 64a0354e780911428ea78c071893b0bc
     GuidInternal: 
-    m_lastTime: -8585893920084530068
+    m_lastTime: -8585850648590237001
     List:
+    - name: DSPEffectSend
+      guid: 066162d31a013747afb50e46ba1e113b
+      id: 3050122115
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: DSPEffectSend
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\DSPEffectSend
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -41,6 +52,17 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
+    - name: ReverbSend
+      guid: d3804cccf4ccb14b8df0a6e851f77795
+      id: 1572469619
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: ReverbSend
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\ReverbSend
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -49,7 +71,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1a449b5d81f2564396c5faa5ce601085
     GuidInternal: 
-    m_lastTime: -8585893920084470229
+    m_lastTime: -8585850648589548807
     List:
     - name: HubWorld
       guid: 943f435c41daa8499aac504f6c5f48e4
@@ -77,8 +99,238 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4c2f5da7e5bb5f4f92c745987df3d2ec
     GuidInternal: 
-    m_lastTime: -8585893920084649747
-    List: []
+    m_lastTime: -8585850648593492196
+    List:
+    - name: DSP_Chorus
+      guid: 1863a43fc4542245ad35f48ca4821082
+      id: 601907247
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPSwitches
+        ObjectType: 4
+      - ElementName: DSP_Chorus
+        ObjectType: 3
+      Path: Default Work Unit\DSPSwitches\DSP_Chorus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DSP_Distortion
+      guid: e015d3a088a3f742bc94e9896cb75170
+      id: 3416339456
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPSwitches
+        ObjectType: 4
+      - ElementName: DSP_Distortion
+        ObjectType: 3
+      Path: Default Work Unit\DSPSwitches\DSP_Distortion
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DSP_Echo
+      guid: a83e35a1185a3e4fab2f881d98df56d1
+      id: 448578474
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPSwitches
+        ObjectType: 4
+      - ElementName: DSP_Echo
+        ObjectType: 3
+      Path: Default Work Unit\DSPSwitches\DSP_Echo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DSP_Tremelo
+      guid: c2097b31beb79345b1468562097aecf2
+      id: 1117646869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPSwitches
+        ObjectType: 4
+      - ElementName: DSP_Tremelo
+        ObjectType: 3
+      Path: Default Work Unit\DSPSwitches\DSP_Tremelo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DSPSwitches
+      guid: 757710d920d9e34b878fee12fb403c76
+      id: 500325566
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPSwitches
+        ObjectType: 4
+      Path: Default Work Unit\DSPSwitches
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ExtraOff
+      guid: 853530dce98a064184a89ff8c5e27721
+      id: 1925712768
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ExtraOff
+        ObjectType: 3
+      Path: Default Work Unit\ExtraOff
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ExtraOn
+      guid: 72049ff084e06d45bb08267656df4eb9
+      id: 2154843210
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ExtraOn
+        ObjectType: 3
+      Path: Default Work Unit\ExtraOn
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartWindSong
+      guid: f9c52641b916b045a68b8a0859111ea9
+      id: 3323822450
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: StartWindSong
+        ObjectType: 3
+      Path: Default Work Unit\Wind\StartWindSong
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StopWindSong
+      guid: a7f03aaef4c750428c6c506070cbdb73
+      id: 440804120
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: StopWindSong
+        ObjectType: 3
+      Path: Default Work Unit\Wind\StopWindSong
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Wind
+      guid: c937391515b6ea4a8aeb2adee4c3d2c4
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      Path: Default Work Unit\Wind
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WindBuild
+      guid: ea38dc018e668249bbe69c10a207c347
+      id: 2550887757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindBuild
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindBuild
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WindExplore
+      guid: ed6c2bdf348c2e4eb3c1af8b5eb8751d
+      id: 3262533912
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindExplore
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindExplore
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WindLayer1
+      guid: da3a21e068a1ec46a5ac0142b4a5bacf
+      id: 4082814115
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindLayer1
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindLayer1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WindLayer2
+      guid: faa799e1f4287e479cfac5473ebc5434
+      id: 4082814112
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindLayer2
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindLayer2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WindLayer3
+      guid: 8a7b07eeb7315c44aabcf69ef800befd
+      id: 4082814113
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindLayer3
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindLayer3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WindLayer4
+      guid: 29c39968a47ec54db41c964509deb038
+      id: 4082814118
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindLayer4
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindLayer4
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WindTriumph
+      guid: b8a1c672b176c8489b7ff9edd83083d0
+      id: 2440479920
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind
+        ObjectType: 4
+      - ElementName: WindTriumph
+        ObjectType: 3
+      Path: Default Work Unit\Wind\WindTriumph
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -97,8 +349,162 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d42c57c21a5f1d41ae95830824e4ae92
     GuidInternal: 
-    m_lastTime: -8585893920084460256
-    List: []
+    m_lastTime: -8585850648589529130
+    List:
+    - name: DSPState
+      guid: 5f50ace737d47d4daef92cbc5e24f271
+      id: 3097867629
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPState
+        ObjectType: 9
+      Path: Default Work Unit\DSPState
+      values:
+      - name: Chorus
+        guid: aec0f564a5135e4e8bb10d11cb529b11
+        id: 2866621671
+        PathAndIcons:
+        - ElementName: Chorus
+          ObjectType: 8
+      - name: Distortion
+        guid: 31890e2550d0194ea9217e39f13e6266
+        id: 1517463400
+        PathAndIcons:
+        - ElementName: Distortion
+          ObjectType: 8
+      - name: Echo
+        guid: 7794286483471146b426a3f763679f9c
+        id: 713277698
+        PathAndIcons:
+        - ElementName: Echo
+          ObjectType: 8
+      - name: None
+        guid: b5692b101d1dc549b4efcfdc8a2efab9
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Tremelo
+        guid: 4efee90ccd73bd4d842249769b28ef98
+        id: 4124907981
+        PathAndIcons:
+        - ElementName: Tremelo
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: GestureStinger
+      guid: 934034b8be29554a9c31cf3386f22673
+      id: 3958274164
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GestureStinger
+        ObjectType: 9
+      Path: Default Work Unit\GestureStinger
+      values:
+      - name: ExtraOff
+        guid: 54a6de7646cd9c40a468e52512c2ad17
+        id: 1925712768
+        PathAndIcons:
+        - ElementName: ExtraOff
+          ObjectType: 8
+      - name: ExtraOn
+        guid: 34fa9030c19e31458c08c590ed1a76a5
+        id: 2154843210
+        PathAndIcons:
+        - ElementName: ExtraOn
+          ObjectType: 8
+      - name: None
+        guid: 2c5b83b099244c42b0a4432639b723f8
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: WindExploreLayer
+      guid: 0a50260bcd1db1449e5a329d5a1e3bfa
+      id: 2348974095
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindExploreLayer
+        ObjectType: 9
+      Path: Default Work Unit\WindExploreLayer
+      values:
+      - name: Layer1
+        guid: 0c782ab5feed1a4ea5acf4d8020abd02
+        id: 3298531297
+        PathAndIcons:
+        - ElementName: Layer1
+          ObjectType: 8
+      - name: Layer2
+        guid: 286191076223d948b936bf949bbaeae7
+        id: 3298531298
+        PathAndIcons:
+        - ElementName: Layer2
+          ObjectType: 8
+      - name: Layer3
+        guid: 2ad16342ee3aa94d8372f0c1e05225c5
+        id: 3298531299
+        PathAndIcons:
+        - ElementName: Layer3
+          ObjectType: 8
+      - name: Layer4
+        guid: 5c5d3ae1b0d5f9469e40f8c5d7935931
+        id: 3298531300
+        PathAndIcons:
+        - ElementName: Layer4
+          ObjectType: 8
+      - name: None
+        guid: 0435cd817be0c043a9bc585cb3a13c02
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: WindState
+      guid: 477b57712b01064982a61b09d280bf68
+      id: 3313638542
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindState
+        ObjectType: 9
+      Path: Default Work Unit\WindState
+      values:
+      - name: Building
+        guid: 162f6127b9ef454d82871201a4825b6a
+        id: 3339761385
+        PathAndIcons:
+        - ElementName: Building
+          ObjectType: 8
+      - name: Exploring
+        guid: e46cf734da1bfb4189f87b135c549e51
+        id: 1823678183
+        PathAndIcons:
+        - ElementName: Exploring
+          ObjectType: 8
+      - name: None
+        guid: b3b87ae5418be048a66df4d265555363
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Triumphant
+        guid: 3a884f6579136e4dbbff806b01a64c99
+        id: 1703190205
+        PathAndIcons:
+        - ElementName: Triumphant
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -107,7 +513,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0140279c6c0254488eee3ba5cfaeda3a
     GuidInternal: 
-    m_lastTime: -8585893920084460256
+    m_lastTime: -8585868780114775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -119,6 +525,11 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585893920084450283
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /GrabWorld_WwiseProject
+  - /GrabWorld_WwiseProject/Events
+  - /GrabWorld_WwiseProject/Events/Default Work Unit
+  - /GrabWorld_WwiseProject/Events/Default Work Unit/DSPSwitches
+  - /GrabWorld_WwiseProject/Events/Default Work Unit/Wind
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

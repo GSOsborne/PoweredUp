@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d38c9bcd970e644e97905c764a4a171, type: 3}
+  m_Name: E0213ADA-A168-46EC-A5AC-0142B4A5BACF
+  m_EditorClassIdentifier: 
+  objectName: WindLayer1
+  id: 4082814115
+  guid: E0213ADA-A168-46EC-A5AC-0142B4A5BACF

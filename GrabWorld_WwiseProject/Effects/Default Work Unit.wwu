@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2BE5FA7F-32E8-496E-9AB5-5DA7C51A55C2}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{2BE5FA7F-32E8-496E-9AB5-5DA7C51A55C2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2BE5FA7F-32E8-496E-9AB5-5DA7C51A55C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="WindDistort" ID="{DA24CFB0-669C-4C3F-A2E2-37C89009EB1E}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="45"/>
+						<Property Name="DistortionTone" Type="Real32" Value="84"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+						<Property Name="OutputLevel" Type="Real32" Value="-7"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

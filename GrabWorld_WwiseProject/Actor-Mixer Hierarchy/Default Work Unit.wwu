@@ -1,6 +1,376 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A9A99A0A-5FB3-41E5-9EC8-628A7BD50B88}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="WindSynth" ID="{ECD0FC16-517F-445B-8548-9B48F0751614}" ShortID="404545423">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6A124C3-C087-444E-8ADF-5A5D7FF62F1A}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="WindChorus" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+							<ObjectRef Name="WindDistort" ID="{DA24CFB0-669C-4C3F-A2E2-37C89009EB1E}" WorkUnitID="{2BE5FA7F-32E8-496E-9AB5-5DA7C51A55C2}"/>
+						</Reference>
+						<Reference Name="Effect3" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+							<ObjectRef Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbSend" ID="{CC4C80D3-CCF4-4BB1-8DF0-A6E851F77795}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="DSPEffectSend" ID="{D3626106-011A-4737-AFB5-0E46BA1E113B}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{44F3531C-532B-42E5-B657-15AE71502F01}" ShortID="503873636" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+								<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-10">
+									<RTPCList>
+										<RTPC Name="" ID="{2494CA11-24AB-4227-A90F-3304AF5AAE79}" ShortID="487638176">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{2035DFAD-5F90-4312-BF8A-26CD2E1DB8A7}" ShortID="119585251">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D886E816-DDB8-4FA9-A5DC-6BAC357C9C71}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="OutputLevel"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="WindExploreLayer" ID="{0B26500A-1DCD-44B1-9E5A-329D5A1E3BFA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Layer4" ID="{E13A5D5C-D5B0-46F9-9E40-F8C5D7935931}"/>
+										<CustomState Name="" ID="{0933D63D-D116-4C8D-BC92-264811EB86E1}" ShortID="147014822"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Layer2" ID="{07916128-2362-48D9-B936-BF949BBAEAE7}"/>
+										<CustomState Name="" ID="{8922C598-B27F-44FF-ABA4-AC7DD06A1D94}" ShortID="410888707"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Layer3" ID="{4263D12A-3AEE-4DA9-8372-F0C1E05225C5}"/>
+										<CustomState Name="" ID="{EA9F8FA7-F2B1-40F9-A9EE-3A7CF12C855F}" ShortID="660491067"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Layer1" ID="{B52A780C-EDFE-4E1A-A5AC-F4D8020ABD02}"/>
+										<CustomState Name="" ID="{F92C37E3-A43A-4835-80AA-0CEDC1266031}" ShortID="358814902">
+											<PropertyList>
+												<Property Name="OutputLevel" Type="Real32" Value="-120"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="BypassEffect0"/>
+							<Property Name="BypassEffect1"/>
+							<Property Name="BypassEffect2"/>
+							<Property Name="BypassEffect3"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DSPState" ID="{E7AC505F-D437-4D7D-AEF9-2CBC5E24F271}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Echo" ID="{64289477-4783-4611-B426-A3F763679F9C}"/>
+								<CustomState Name="" ID="{70175055-20F7-46F7-A72F-419BA5512BA5}" ShortID="397845185">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool" Value="True"/>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+										<Property Name="BypassEffect3" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64" Value="6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Tremelo" ID="{0CE9FE4E-73CD-4DBD-8422-49769B28EF98}"/>
+								<CustomState Name="" ID="{DF1D84E8-ACF3-43FA-A666-0C10F29891D0}" ShortID="71624016">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool" Value="True"/>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+										<Property Name="BypassEffect2" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64" Value="4"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Distortion" ID="{250E8931-D050-4E19-A921-7E39F13E6266}"/>
+								<CustomState Name="" ID="{C75BB0A1-8996-4D6C-9ECC-56669A577210}" ShortID="846239457">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool" Value="True"/>
+										<Property Name="BypassEffect2" Type="bool" Value="True"/>
+										<Property Name="BypassEffect3" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Chorus" ID="{64F5C0AE-13A5-4E5E-8BB1-0D11CB529B11}"/>
+								<CustomState Name="" ID="{B032F073-0025-46FF-8FDB-1CC48B7FD193}" ShortID="1049949059">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+										<Property Name="BypassEffect2" Type="bool" Value="True"/>
+										<Property Name="BypassEffect3" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{44F3531C-532B-42E5-B657-15AE71502F01}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WindExtraSynth" ID="{6C3FA01C-6CDE-48FC-AD06-2AF14048D34A}" ShortID="229135590">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6A124C3-C087-444E-8ADF-5A5D7FF62F1A}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="WindChorus" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+							<ObjectRef Name="WindDistort" ID="{DA24CFB0-669C-4C3F-A2E2-37C89009EB1E}" WorkUnitID="{2BE5FA7F-32E8-496E-9AB5-5DA7C51A55C2}"/>
+						</Reference>
+						<Reference Name="Effect3" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+							<ObjectRef Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbSend" ID="{CC4C80D3-CCF4-4BB1-8DF0-A6E851F77795}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="DSPEffectSend" ID="{D3626106-011A-4737-AFB5-0E46BA1E113B}" WorkUnitID="{4E35A064-0978-4211-8EA7-8C071893B0BC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{71A78087-029C-43F5-8CD1-0B12E7927B4D}" ShortID="673191124" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+								<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-10">
+									<RTPCList>
+										<RTPC Name="" ID="{F62B232A-A931-43C8-98B3-63694BD170F1}" ShortID="382160025">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{9F5E5E6E-F3FF-4C3F-A2C4-19F732067424}" ShortID="920075236">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5B8AA722-1FA6-4D9D-A8E1-37BF49C667F8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="OutputLevel"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="WindExploreLayer" ID="{0B26500A-1DCD-44B1-9E5A-329D5A1E3BFA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Layer4" ID="{E13A5D5C-D5B0-46F9-9E40-F8C5D7935931}"/>
+										<CustomState Name="" ID="{F8A76BBC-5EAF-4960-B1FC-339B39E9CB1B}" ShortID="971697580"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Layer2" ID="{07916128-2362-48D9-B936-BF949BBAEAE7}"/>
+										<CustomState Name="" ID="{D6BDABDC-111B-4DE9-8738-6D8AA8DF3A09}" ShortID="582672623"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Layer3" ID="{4263D12A-3AEE-4DA9-8372-F0C1E05225C5}"/>
+										<CustomState Name="" ID="{9058B2C6-B33B-44E1-9FF4-D5D4F39A1004}" ShortID="717180899"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Layer1" ID="{B52A780C-EDFE-4E1A-A5AC-F4D8020ABD02}"/>
+										<CustomState Name="" ID="{E9FC45E2-59C7-47F2-9F1A-96917BD2B51C}" ShortID="810554821"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="BypassEffect0"/>
+							<Property Name="BypassEffect1"/>
+							<Property Name="BypassEffect2"/>
+							<Property Name="BypassEffect3"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="GestureStinger" ID="{B8344093-29BE-4A55-9C31-CF3386F22673}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="DSPState" ID="{E7AC505F-D437-4D7D-AEF9-2CBC5E24F271}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="ExtraOff" ID="{76DEA654-CD46-409C-A468-E52512C2AD17}"/>
+								<CustomState Name="" ID="{9F20A4DD-93FC-4FBD-948F-DDFF9F56715B}" ShortID="436857446">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="ExtraOn" ID="{3090FA34-9EC1-4531-8C08-C590ED1A76A5}"/>
+								<CustomState Name="" ID="{41E4271A-1C2C-4D8D-AE91-2D5A976F6DA1}" ShortID="214033917"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Echo" ID="{64289477-4783-4611-B426-A3F763679F9C}"/>
+								<CustomState Name="" ID="{0585F517-4F41-420C-9E77-68392FDFF18F}" ShortID="192358727">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool" Value="True"/>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+										<Property Name="BypassEffect3" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64" Value="6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Tremelo" ID="{0CE9FE4E-73CD-4DBD-8422-49769B28EF98}"/>
+								<CustomState Name="" ID="{C88D6A3E-5883-4DE4-BFC3-27749DC54310}" ShortID="71129647">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool" Value="True"/>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+										<Property Name="BypassEffect2" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64" Value="6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Distortion" ID="{250E8931-D050-4E19-A921-7E39F13E6266}"/>
+								<CustomState Name="" ID="{87D6E1B8-B0F0-4CB0-9133-564695B08A78}" ShortID="855273325">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool" Value="True"/>
+										<Property Name="BypassEffect2" Type="bool" Value="True"/>
+										<Property Name="BypassEffect3" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Chorus" ID="{64F5C0AE-13A5-4E5E-8BB1-0D11CB529B11}"/>
+								<CustomState Name="" ID="{47DC7D21-0BB6-433B-90EF-F6BC6E029F8C}" ShortID="393319314">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+										<Property Name="BypassEffect2" Type="bool" Value="True"/>
+										<Property Name="BypassEffect3" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{71A78087-029C-43F5-8CD1-0B12E7927B4D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
